@@ -1,0 +1,45 @@
+<template>
+	<lightning-card>
+		<lightning-layout multiple-rows>
+			<lightning-layout-item size="12" padding="around-small" small-device-size="3" medium-device-size="6"
+				large-device-size="4">
+                <div class="slds-box">
+				<lightning-card variant="Narrow" title="Account" icon-name="standard:account">
+					<div class="slds-align_absolute-center" style="color:red; font-size:40px ">
+						{accCount.data}
+					</div>
+				</lightning-card>
+                </div>
+			</lightning-layout-item>
+
+			<lightning-layout-item size="12" padding="around-small" small-device-size="3" medium-device-size="6"
+				large-device-size="4">
+                <div class="slds-box">
+				<lightning-card variant="Narrow" title="Opportunity" icon-name="standard:opportunity">
+					<div class="slds-align_absolute-center" style="color:green; font-size:40px">
+						{oppCount.data}
+					</div>
+				</lightning-card>
+                </div>
+			</lightning-layout-item>
+
+			<lightning-layout-item size="12" padding="around-small" small-device-size="3" medium-device-size="6"
+				large-device-size="4">
+                <div class="slds-box">
+				<lightning-card variant="Narrow" title="Contact" icon-name="standard:contact">
+					<div class="slds-align_absolute-center" style="color:Yellow; font-size:40px ">
+
+						{conCount.data}
+					</div>
+				</lightning-card>
+                </div>
+			</lightning-layout-item>
+
+		</lightning-layout>
+
+
+
+	</lightning-card>
+
+
+</template>
